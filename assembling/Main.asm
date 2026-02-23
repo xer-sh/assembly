@@ -1,5 +1,5 @@
 section .data
-    msg db 'oi mundo', 0xA
+    msg db 'oi mundo', 0xA ; msg = 'oi mundo'
     len equ $ - msg
 
 section .text
